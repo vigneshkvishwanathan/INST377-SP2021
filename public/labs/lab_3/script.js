@@ -7,11 +7,11 @@ for(let li of carousel.querySelectorAll('li')) {
   i++;
 }
 
-let width = 130;
-let count = 3;
+const width = 130;
+const count = 3;
 
-let list = carousel.querySelector('ul');
-let listElems = carousel.querySelectorAll('li');
+const list = carousel.querySelector('ul');
+const listElems = carousel.querySelectorAll('li');
 
 let position = 0;
 
